@@ -1,0 +1,81 @@
+img{
+	max-width: 200px
+}
+
+#imgy{
+	display: none;
+	cursor: pointer;}
+#imgy.aceso{
+	display: block}
+
+
+#imgx{
+	display: none;
+	cursor:pointer;}
+#imgx.aceso{
+	display: block}
+
+
+#imgz{
+	display: none}
+#imgz.quebra{
+	display: block}
+
+#b3{
+	display: none}
+#b3.aparece{
+	display: block}
+
+#b1.some{
+	display: none}
+#b1{
+	display: block}
+
+#b2.some{
+	display: none}
+#b2{
+	display: block}
+
+	/*-------------------------------------------------------*/
+h1{
+	font-family: Vendana, Geneva, Tahoma, sans-serif;
+	color:cyan;
+	font-size:24px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.boxb{
+	padding: 20px;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	grid-gap: 30px;
+}
+
+.box{
+	background-color: black;
+	padding: 30px;
+	border-radius:20px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+}
+
+button{
+	background-color: cyan;
+	color: black;
+	border-radius: 10px;
+	padding: 10px 20px;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
